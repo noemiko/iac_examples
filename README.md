@@ -1,4 +1,4 @@
-### What is this?
+### What for is this repository?
 
 This repository contains 3 example how to set up on AWS:
 - load balancer

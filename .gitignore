@@ -1,0 +1,7 @@
+.env
+.history
+.vscode
+.idea
+.DS_Store
+venv
+.terraform

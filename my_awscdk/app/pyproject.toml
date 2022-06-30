@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "awscdk"
+version = "0.1.0"
+description = ""
+authors = ["Noemi Kowalewska <noemi.kowalewska@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-decouple = "^3.6"
+aws-cdk-lib = "^2.28.0"
+constructs = "^10.1.41"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pylint = "^2.11.1"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
