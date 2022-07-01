@@ -20,7 +20,6 @@ class LastSrcStack(Stack):
 		user_data = self.get_user_data_to_serve_simple_site()
 		asg = self.create_autoscaling_group(user_data, vpc, ssm_role)
 		self.create_load_balancer(asg, vpc)
-		asg.scale_on_request_count("AModestLoad", target_requests_per_minute=60)
 
 	def create_ssm_role(self):
 		"""Create role which allows to connect to ec2 by ssm manager"""
