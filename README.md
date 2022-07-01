@@ -1,10 +1,10 @@
-### What for is this repository?
+### What is this repository for?
 
 This repository contains 3 example how to set up on AWS:
 - load balancer
 - scaling group
 
-Hee is used libraries such as:
+Here is used libraries such as:
 - pulumi
 - aws cdk
 - terraform
